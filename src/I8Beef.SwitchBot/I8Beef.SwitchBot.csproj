@@ -5,7 +5,7 @@
     <LangVersion>latest</LangVersion>
     <Authors>Michael Hallock</Authors>
     <Company>Michael Hallock</Company>
-    <Description>Library for interacting with Ecobee API</Description>
+    <Description>Library for interacting with SwitchBot API</Description>
     <Copyright>Copyright ©  2016</Copyright>
     <PackageProjectUrl>https://github.com/i8beef/I8Beef.SwitchBot</PackageProjectUrl>
     <PackageTags>SwitchBot</PackageTags>
