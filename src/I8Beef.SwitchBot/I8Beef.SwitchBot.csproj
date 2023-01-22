@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Authors>Michael Hallock</Authors>
+    <Company>Michael Hallock</Company>
+    <Description>Library for interacting with Ecobee API</Description>
+    <Copyright>Copyright ©  2016</Copyright>
+    <PackageProjectUrl>https://github.com/i8beef/I8Beef.SwitchBot</PackageProjectUrl>
+    <PackageTags>SwitchBot</PackageTags>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <Version>1.0.0.0</Version>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="I8Beef.CodeAnalysis.EditorConfig" Version="1.0.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
+  </ItemGroup>
+
+</Project>
